@@ -1,13 +1,13 @@
 import threading
 import webview
 import uvicorn
-from app import app
+from app import app  # ONLY THIS ONE
 
 def run_server():
     uvicorn.run(app, host="127.0.0.1", port=8000)
 
 if __name__ == "__main__":
-    # start FastAPI in background thread
+    # start FastAPI server in background thread
     t = threading.Thread(target=run_server, daemon=True)
     t.start()
 
