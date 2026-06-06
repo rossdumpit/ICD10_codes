@@ -1,0 +1,249 @@
+Code,Headings,Description
+U50.00,sport,Australian Rules
+U50.01,sport,Rugby Union
+U50.02,sport,Rugby League
+U50.03,sport,"Rugby, unspecified"
+U50.04,sport,Soccer
+U50.05,sport,Touch football
+U50.08,sport,Other specified football
+U50.09,sport,"Football, unspecified"
+U50.1,sport,Basketball
+U50.2,sport,"Handball, team"
+U50.30,sport,"Netball, indoor"
+U50.39,sport,"Netball, other and unspecified"
+U50.4,sport,Korfball
+U50.5,sport,Volleybal
+U50.8,sport,Other specified team ball sport
+U50.9,sport,Unspecified team ball sport
+U51,sport,Baseball
+U51.1,sport,Cricket
+U51.2,sport,"Hockey, ice"
+U51.21,sport,"Hockey, street and ball"
+U51.22,sport,"Hockey, field"
+U51.23,sport,"Hockey, floor"
+U51.28,sport,Other specified hockey
+U51.29,sport,"Hockey, unspecified"
+U51.3,sport,Softball
+U51.4,sport,T-ball
+U51.8,sport,Other specified team bat or stick sport
+U51.9,sport,Unspecified team bat or stick sport
+U52.0,sport,Synchronised swimming
+U52.1,sport,Water polo
+U52.8,sport,Other specified team water sport
+U52.9,sport,Unspecified team water sport
+U53.0,sport,Canoeing
+U53.1,sport,Jet skiing
+U53.2,sport,Kayaking
+U53.3,sport,Power boat racing
+U53.4,sport,Rowing and sculling
+U53.5,sport,Surf boating
+U53.6,sport,Yachting and sailing
+U53.7,sport,Surf skiing
+U53.8,sport,Other specified boating sport
+U53.9,sport,Unspecified boating sport
+U54.00,sport,"Diving, cliff"
+U54.01,sport,"Diving, springboard"
+U54.02,sport,"Diving, platform"
+U54.08,sport,Other specified diving
+U54.09,sport,"Diving, unspecified"
+U54.10,sport,Rock fishing
+U54.18,sport,Other specified fishing
+U54.19,sport,"Fishing, unspecified"
+U54.2,sport,Scuba diving
+U54.3,sport,Snorkelling
+U54.4,sport,Surfing and boogie boarding
+U54.50,sport,"Swimming, competitive"
+U54.51,sport,"Swimming, recreational"
+U54.59,sport,"Swimming, unspecified"
+U54.60,sport,Water ski jumping
+U54.61,sport,Wake boarding
+U54.68,sport,Other specified water skiing
+U54.69,sport,"Water skiing, unspecified"
+U54.7,sport,Wind surfing
+U54.8,sport,"Other specified individual water sport - sliding, tubing"
+U54.9,sport,Other specified individual water spor
+U55.0,sport,Bobsledding
+U55.1,sport,Ice skating and ice dancing - figure skating (excludes ice hockey and speed skating)
+U55.20,sport,"Skiing, alpine and downhill"
+U55.21,sport,"Skiing, Nordic and cross country"
+U55.22,sport,"Skiing, freestyle"
+U55.23,sport,"Skiing, snow ski jumping"
+U55.28,sport,Other specified skiing
+U55.29,sport,"Skiing, unspecified"
+U55.29  ,sport,"Activity, Skiing unspecified"
+U55.3,sport,Snowmobiling
+U55.4,sport,Snow boarding
+U55.5,sport,Speed skating
+U55.6,sport,Tobogganing
+U55.7,sport,Curling
+U55.8,sport,Other specified ice or snow sport
+U55.9,sport,Unspecified ice or snow sport
+U56.00,sport,Aerobics
+U56.01,sport,Calisthenics
+U56.1,sport,"Jogging and running (excluding marathon running, track and field events)"
+U56.2,sport,Walking (non-competative)
+U56.30,sport,Racing over obstacles and hurdles
+U56.31,sport,"Track and field, sprinting and middle distance"
+U56.32,sport,"Track and field, running long distances"
+U56.33,sport,"Track and field, high jump"
+U56.34,sport,"Track and field, long jump"
+U56.35,sport,"Track and field, pole vault"
+U56.36,sport,"Track and field, triple jump"
+U56.37,sport,"Track and field, throwing events; discus, hammer throw, javelin"
+U56.38,sport,"Track and field, throwing events"
+U56.39,sport,"Track and field, unspecified"
+U56.4,sport,"Walking, competitive"
+U56.5,sport,Marathon running
+U56.8,sport,"Other specified individual athletic activity; yoga, tai chi"
+U56.9,sport,Unspecified individual athletic activity
+U57.0,sport,Dancing
+U57.00,sport,"Gymnastics, balance beam"
+U57.01,sport,"Gymnastics, floor"
+U57.02,sport,"Gymnastics, high bar (uneven)"
+U57.03,sport,"Gymnastics, parallell bar"
+U57.04,sport,"Gymnastics, rings"
+U57.06,sport,"Gymnastics, trampoline and mini -trampoline"
+U57.07,sport,"Gymnastics, vault"
+U57.08,sport,Other specified gymnastics
+U57.09,sport,"Gymnastics, unspecified"
+U57.8,sport,Other specified acrobatic sport
+U57.8   ,sport,"Activity, Other specified acrobatic sport"
+U57.9,sport,Unspecified acrobatic sport
+U58.8,sport,other specified racquet sport
+U58.9,sport,Unspecified aesthetic sport
+U58.9,sport,Unspecified racquet sport
+U59.0,sport,Badminton
+U59.1,sport,Racquetball
+U59.2,sport,Squash
+U59.3,sport,"Table tennis and Ping
+-Pong"
+U59.4,sport,Tennis
+U60.0,sport,Archery
+U60.1,sport,"Billiards, pool and snooker"
+U60.20,sport,Lawn bowling
+U60.21,sport,Tenpin bowling
+U60.22,sport,Indoor bowling
+U60.29,sport,"Bowling, other and unspecified"
+U60.3,sport,Croquet
+U60.4,sport,Darts
+U60.5,sport,Golf
+U60.6,sport,Firearm shooting
+U60.8,sport,Other specified target and precision sport
+U60.9,sport,Unspecified target and precision sports
+U61.0,sport,Aikido
+U61.1,sport,Boxing
+U61.2,sport,Fencing
+U61.30,sport,Judo
+U61.31,sport,Jujitsu
+U61.32,sport,Karate
+U61.33,sport,Kendo
+U61.34,sport,Kick-boxing
+U61.35,sport,Kung fu
+U61.36,sport,Tae kwon do
+U61.38,sport,other specified martial arts
+U61.39,sport,"martial arts, unspecified"
+U61.40,sport,"Wrestling, freestyle"
+U61.41,sport,"Wrestling, Greco
+-Roman"
+U61.42,sport,"Wrestling, professional"
+U61.48,sport,Other specified wrestling
+U61.49,sport,"Wrestling, unspecified"
+U61.5,sport,Self-defence training
+U61.8,sport,Other specified combative sport
+U61.9,sport,Unspecified combative sport
+U62.0,sport,Power lifting
+U62.1,sport,Weight lifting
+U62.3,sport,Strength training and body building
+U62.4,sport,Wood chopping
+U62.5,sport,Wood sawing
+U62.6,sport,Wood sawing
+U62.8,sport,Other specified power sport
+U62.9,sport,Unspecified power sport
+U63.01,sport,Dressage
+U63.02,sport,show jumping
+U63.02  ,sport,"Activity, Show jumping"
+U63.03,sport,Steeplechase and cross -country eventing
+U63.08,sport,Other specified equestrian event
+U63.09,sport,"Equestrian event, unspecified"
+U63.1,sport,Endurance riding
+U63.2,sport,Polo and polocrosse
+U63.31,sport,Horse racing
+U63.31  ,sport,"Activity, Horse racing"
+U63.32,sport,Hurdle racing
+U63.4,sport,Rodeo
+U63.5,sport,Trail or general horseback riding
+U63.6,sport,Trotting and harness
+U63.8,sport,"Other specified equestrian activity; driving, reining, training, vaulting, buggy racing, carriage racing, wagon racing, show horse competition"
+U63.9,sport,Unspecified equestrian activity
+U64.0,sport,Abseiling and rappelling
+U64.1,sport,Hiking
+U64.2,sport,Mountaineering
+U64.3,sport,Orienteering and rogaining
+U64.4,sport,River rafting
+U64.5,sport,White -water rafting
+U64.6,sport,Rock climbing
+U64.7,sport,Bungy jumping
+U64.8,sport,Other specified adventure sport
+U64.9,sport,Unspecified adventure spor
+U65.0,sport,Riding an all -terrain vehicle (ATV) - three or four wheeled
+U65.1,sport,"Motorcycling - dirt bike racing, morocross"
+U65.2,sport,"Motor car racing, rallying, speedway"
+U65.3,sport,Go -carting
+U65.8,sport,Other specified motor sport
+U65.9,sport,Unspecified motor sport
+U66.00,sport,"Cycling, BMX"
+U66.01,sport,"Cycling, mountain"
+U66.02,sport,"Cycling, road"
+U66.03,sport,"Cycling, track and velodrome"
+U66.08,sport,Other specified cycling
+U66.09,sport,"Other unspecified cycling, recreational"
+U66.1,sport,In-line skating and rollerblading
+U66.2,sport,Roller skating
+U66.3,sport,Skate boarding
+U66.3   ,sport,"Activity, Skate boarding"
+U66.40,sport,"Scooter riding, folding non-motored scooter"
+U66.5,sport,Land sailing
+U66.8,sport,Other specified wheeled non-motored sport
+U66.9,sport,Unspecified wheeled non-motored sport
+U67.0,sport,"Biathlon, winter"
+U67.1,sport,Decathlon
+U67.2,sport,Heptathlon
+U67.3,sport,modern pentathlon
+U67.40,sport,"Triathlon, cycling event"
+U67.41,sport,"Triathlon, running event"
+U67.42,sport,"Triathlon, swimming event"
+U67.49,sport,"Triathlon, unspecified event"
+U67.8,sport,Other specified multidiscipline sport
+U67.9,sport,Unspecified multidiscipline sport
+U68.1,sport,Aerobatics
+U68.2,sport,Gliding
+U68.3,sport,hang gliding
+U68.3   ,sport,"Activity, Hang gliding"
+U68.4,sport,Parachuting and sky diving
+U68.4   ,sport,"Activity, Parachuting and sky diving"
+U68.5,sport,Paragliding and parasailing
+U68.6,sport,Hot air ballooning
+U68.8,sport,Other specified aero spor
+U68.9,sport,Unspecified aero sport
+U69.0,sport,School physical education class
+U69.8,sport,Other specified school-related recreational activity
+U69.9,sport,Unspecified school-related recreational activity
+U70.0,sport,"Athletic activities involving fitness equipment, not elsewhere classified"
+U70.8,sport,Other specified sport and exercise activity
+U71,sport,Unspecified sport and exercise activity
+U72,other,"Leisure activity, not elsewhere classified - hobbies, play, exludes sports activities"
+U73.00,income,"Agriculture, forestry and fishing"
+U73.00  ,income,"While  working for income, agriculture, forestry and fishing; horticulture, hunting, logging, market gardening"
+U73.01,income,"While  working for income, Mining"
+U73.02  ,income,"While  working for income, manufacturing; food, machinery and equipment, printing and publishing, textiles"
+U73.03,income,"While  working for income, Construction; installation trade services, site preparation"
+U73.04,income,"While  working for income, Wholesale and retail trade; sale of motor vehicles"
+U73.05  ,income,"Activity, while working for income, transport and storage; air land post"
+U73.06  ,income,"Activity, while working for income, government administration and defence; policing, public servant, defence activities, economic and social policy of the community, foreign affiars"
+U73.07,income,"While  working for income, Health services; dental, GP, hospitals, vet"
+U73.08,income,"Other specified work for income; child care, communication, education, finance, property, public order and safety services"
+U73.09,income,"While working for income, unspecified"
+U73.1,other,"While engaged in other types of work not for income; caring for children, cleaning, cooking, gardening, household maintenance, education"
+U73.2,other,"While resting, sleeping, eating or engaging in other vital activities - hygiene"
+U73.8,other,Other specified activity
+U73.9,Unspecified,Unspecified activity

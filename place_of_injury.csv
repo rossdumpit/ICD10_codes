@@ -1,0 +1,58 @@
+Code,Headings,Description
+Y92.00,Home,Home: Driveway
+Y92.01,Home,"Home: Outdoor areas - garden, courtyard, swimming pool, tennis court"
+Y92.02,Home,"Home: Garage, carport or shed"
+Y92.03,Home,Home: Bathroom
+Y92.04,Home,Home: Kitchen
+Y92.05,Home,Home: Bedroom
+Y92.06,Home,Home: Laundry
+Y92.07,Home,"Home: Indoor living areas, not elsewhere classified"
+Y92.09,Home,Home: Other and unspecified place in home - indoor swimming pool
+Y92.10,Institution/Facility,"Prison, jail"
+Y92.11,Institution/Facility,Juvenille detention centre
+Y92.12,Institution/Facility,Military camp
+Y92.14,Institution/Facility,"Aged care facility, nursing home, retirement village"
+Y92.18,Institution/Facility,Other specified residential institution
+Y92.21,Institution/Facility,"School, boarding/residential, campus, college, daycare, university"
+Y92.23,Institution/Facility,"Health service area, not specified as this facility. Hospital, day procedure centre, health centre, hospice, outpatient clinic"
+Y92.24,Institution/Facility,"Health service area, this facility. Hospital"
+Y92.29,Institution/Facility,"Other specified institution and public administrative area (building including adjacent grounds); assembly hall, church, cinema, clubhouse, court house, dancehall, gallery, library, movie theatre, museum, public hall"
+Y92.30,Sport,Sporting ground (outdoor) - excluding outdoor tennis court
+Y92.31,Sport,Sporting hall (indoor) - excluding indoor tennis court
+Y92.32,Sport,"Place of occurrence, swimming centre (excluding swimming pool of hotel or private home)"
+Y92.33,Sport,"Racetrack and racecourse - bicycle, car, dog, horse, morotcycle"
+Y92.34,Sport,Equestrian facility - riding school
+Y92.35,Sport,Skating rink
+Y92.36,Sport,Skiing area
+Y92.38,Sport,Other specified sports and athletics area
+Y92.41,public outdoor space,"Sidewalk - footpath, pavement"
+Y92.42,public outdoor space,Cycleway
+Y92.48,road,"Other specified public highway, street or road"
+Y92.49,road,"Unspecified public highway, street or road - freeway, motorway"
+Y92.50,commercial,"Shop and store - bank, market, post office, shopping mall, supermarket"
+Y92.51,commercial,"Dommercial garage - petrol station, service station"
+Y92.52,commercial,Office building
+Y92.53,commercial,"Cafe, bar, casino, hotel and restaurant (excludes hotel as usual place of residence)"
+Y92.58,commercial,"Other specified trade and service area - airport, bus station, railway station"
+Y92.59,commercial,Unspecified trade and service area
+Y92.60,construction,Construction area - building or  unoccupied home under construction
+Y92.61,construction,Demolition site - derelict building or house for demolition
+Y92.62,construction,"Factory and plant - building and premesis, warehouse, workshop, undustrial yard, small scale industry"
+Y92.63,construction,Mine and quarry
+Y92.64,construction,Oil and gas extraction
+Y92.65,construction,shipyard
+Y92.66,construction,power station
+Y92.68,construction,Other specified industrial and construction area
+Y92.69,construction,"Place of occurrence, unspecified industrial and construction area"
+Y92.7,public outdoor space,"Farm -  buildings, land under cultivation"
+Y92.80,public outdoor space,"Area of still water - dam, pond, pool, reservoir"
+Y92.81,public outdoor space,"Stream of water - brook, canal, creek, flooded area, river"
+Y92.82,public outdoor space,"Large area of water, lake, ocean, sea"
+Y92.83,public outdoor space,Beach
+Y92.84,sport,"Forest, hiking trail, path in forest, track in forest, national park"
+Y92.85,sport,Desert - hiking trail in desert etc
+Y92.86,public outdoor space,"Other specified countryside - cave, dry river bed, gorge, ouback, sand dunes not adjacent to beach"
+Y92.87,public outdoor space,"Carpark, parking lot"
+Y92.88,public outdoor space,"Other specified place of occurrence - PARKS, amusement or public, zoo, campsite, caravan site, military training ground"
+Y92.89,public outdoor space,"Communal living area, eg. Town camp"
+Y92.9,unspecified,Unspecified place of occurrence

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ICD10 Search</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+
+    .tabs button {
+      margin-right: 5px;
+      padding: 8px;
+      cursor: pointer;
+    }
+
+    .tabs button.active {
+      background: #111;
+      color: white;
+    }
+
+    .slots {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .slot {
+      border: 1px solid #ccc;
+      padding: 10px;
+      flex: 1;
+      min-height: 40px;
+    }
+
+    .result {
+      border-bottom: 1px solid #ddd;
+      padding: 5px;
+      cursor: pointer;
+    }
+
+    .result:hover {
+      background: #f0f0f0;
+    }
+
+    #search {
+      width: 50%;
+      padding: 14px;
+      font-size: 18px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h2>ICD10 Search</h2>
+
+<div class="slots">
+  <div class="slot" id="slot1">Slot 1</div>
+  <div class="slot" id="slot2">Slot 2</div>
+  <div class="slot" id="slot3">Slot 3</div>
+</div>
+
+<div class="tabs">
+  <button onclick="setTable('existing_cause', this)">Existing Cause</button>
+  <button onclick="setTable('act_engaged', this)">Act Engaged</button>
+  <button onclick="setTable('place_of_injury', this)">Place</button>
+</div>
+
+<br/>
+
+<input id="search" placeholder="type search..." oninput="search()" />
+
+<div id="results"></div>
+
+<script>
+
+let activeTable = "existing_cause";
+
+function setTable(table, btn) {
+  activeTable = table;
+
+  document.querySelectorAll(".tabs button")
+    .forEach(b => b.classList.remove("active"));
+
+  btn.classList.add("active");
+
+  document.getElementById("results").innerHTML = "";
+  search();
+}
+
+async function search() {
+  const q = document.getElementById("search").value;
+
+  if (q.length < 1) {
+    document.getElementById("results").innerHTML = "";
+    return;
+  }
+
+  const res = await fetch(`/search?table=${activeTable}&query=${q}`);
+  const data = await res.json();
+
+  renderResults(data);
+}
+
+function renderResults(data) {
+  const container = document.getElementById("results");
+  container.innerHTML = "";
+
+  data.forEach(row => {
+    const div = document.createElement("div");
+    div.className = "result";
+
+    div.innerText = `${row.Code} - ${row.Description}`;
+
+    div.onclick = () => selectRow(row);
+
+    container.appendChild(div);
+  });
+}
+
+function selectRow(row) {
+  const slotMap = {
+    "existing_cause": "slot1",
+    "act_engaged": "slot2",
+    "place_of_injury": "slot3"
+  };
+
+  document.getElementById(slotMap[activeTable]).innerText =
+    `${row.Code}: ${row.Description}`;
+}
+
+</script>
+
+</body>
+</html>
