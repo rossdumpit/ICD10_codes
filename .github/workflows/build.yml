@@ -20,11 +20,17 @@ jobs:
       - name: Install dependencies
         run: pip install pyinstaller
 
-      - name: Build exe
-        run: pyinstaller --onefile main.py
+      - name: Build EXE
+        run: |
+          pyinstaller --onefile ^
+          --add-data "front.html;." ^
+          --add-data "act_engaged.csv;." ^
+          --add-data "existing_cause.csv;." ^
+          --add-data "place_of_injury.csv;." ^
+          run_app.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: windows-exe
+          name: ICD10-exe
           path: dist/*
