@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install pyinstaller
-          pip install fastapi uvicorn pywebview
+          pip install fastapi uvicorn pywebview rapidfuzz
 
       - name: Build EXE
         run: >
