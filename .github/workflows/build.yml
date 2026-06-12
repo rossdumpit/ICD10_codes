@@ -26,17 +26,17 @@ jobs:
           pip install fastapi uvicorn pywebview
 
       - name: Build EXE
-        run: |
-          pyinstaller --onefile ^
-            --hidden-import=webview ^
-            --hidden-import=webview.platforms.winforms ^
-            --hidden-import=uvicorn ^
-            --hidden-import=fastapi ^
-            --add-data "front.html;." ^
-            --add-data "act_engaged.csv;." ^
-            --add-data "existing_cause.csv;." ^
-            --add-data "place_of_injury.csv;." ^
-            run_app.py
+        run: >
+          pyinstaller --onefile
+          --hidden-import=webview
+          --hidden-import=webview.platforms.winforms
+          --hidden-import=uvicorn
+          --hidden-import=fastapi
+          --add-data "front.html;."
+          --add-data "act_engaged.csv;."
+          --add-data "existing_cause.csv;."
+          --add-data "place_of_injury.csv;."
+          run_app.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
