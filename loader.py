@@ -23,4 +23,13 @@ def load_data():
     for name, path in FILES.items():
         with open(path, newline="", encoding="utf-8") as f:
             reader = csv.DictReader(f)
-            DATASETS[name] = list(reader)
+            rows = list(reader)
+
+            for r in rows:
+                r["search_blob"] = " ".join([
+                    r.get("Code", ""),
+                    r.get("Headings", ""),
+                    r.get("Description", "")
+                ])
+
+            DATASETS[name] = rows
